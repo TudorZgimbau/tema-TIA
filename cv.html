@@ -7,40 +7,48 @@
         border-collapse: collapse;
       }
 
-      table,
-      th,
-      td {
-        border: 1px solid;
-      }
-
       th,
       td {
         padding: 10px;
         text-align: left;
       }
 
+      .introduction,
+      .introduction th,
+      .introduction td {
+        border: 1px solid;
+      }
+
       .experienta,
       .descriere {
         margin-top: 50px;
+      }
+
+      .bordered {
+        border: 1px solid;
+      }
+
+      .europass-blue {
+        color: #0a56a4;
       }
     </style>
   </head>
 
   <body>
-    <table>
+    <table class="introduction">
       <tr>
         <th colspan="2" style="font-size: large">Tudor Zgîmbău</th>
       </tr>
 
       <tr>
-        <td>E-mail:</td>
+        <th>E-mail:</th>
         <td>
           <a href="mailto:tudor.zgimbau@gmail.com">tudor.zgimbau@gmail.com</a>
         </td>
       </tr>
 
       <tr>
-        <td>Site de internet:</td>
+        <th>Site de internet:</th>
         <td>
           <a href="https://www.tudor-zgimbau.dev"
             >https://www.tudor-zgimbau.dev</a
@@ -49,7 +57,7 @@
       </tr>
 
       <tr>
-        <td>LinkedIn:</td>
+        <th>LinkedIn:</th>
         <td>
           <a href="https://www.linkedin.com/in/tudor-zgîmbău-a85274234/"
             >https://www.linkedin.com/in/tudor-zgîmbău-a85274234/</a
@@ -58,25 +66,28 @@
       </tr>
 
       <tr>
-        <td>Gen:</td>
+        <th>Gen:</th>
         <td>Masculin</td>
       </tr>
 
       <tr>
-        <td>Data nașterii:</td>
+        <th>Data nașterii:</th>
         <td>25/08/2004</td>
       </tr>
 
       <tr>
-        <td>Cetățenie:</td>
+        <th>Cetățenie:</th>
         <td>română</td>
       </tr>
     </table>
 
     <table class="descriere">
       <tr>
-        <th font-size="large">DESPRE MINE</th>
-        <td>
+        <th font-size="large" class="bordered europass-blue">DESPRE MINE</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="bordered">
           Pasiunile mele principale sunt tehnologia și business-ul. Îmi doresc
           să am o carieră în care acestea se îmbină, motiv pentru care studiez
           Management la Facultatea de Economie și Administrarea Afacerilor din
@@ -88,96 +99,120 @@
 
     <table class="experienta">
       <tr>
-        <th rowspan="3" font-size="large">EDUCAȚIE ȘI FORMARE PROFESIONALĂ</th>
-        <th>Nume</th>
-        <th>Instituție</th>
-        <th>Site instituție</th>
-        <th>Localitate</th>
-        <th>Țară</th>
-        <th>Perioadă</th>
+        <th font-size="large" class="bordered europass-blue">
+          EDUCAȚIE ȘI FORMARE PROFESIONALĂ
+        </th>
       </tr>
-
       <tr>
-        <td>
+        <td class="bordered">[2019 - 2023]</td>
+        <th class="bordered europass-blue">
           Absolvirea profilului real, specializarea Matematică-Informatică
+        </th>
+      </tr>
+      <tr>
+        <td rowspan="3"></td>
+        <td class="bordered">
+          <i><b>Colegiul Național Mihai Eminescu &nbsp; &nbsp; &nbsp;</b></i>
+          <a href="http://www.lme.ro">http://www.lme.ro</a>
         </td>
-        <td>Colegiul Național Mihai Eminescu</td>
-        <td><a href="http://www.lme.ro">http://www.lme.ro</a></td>
-        <td>Botoșani</td>
-        <td>România</td>
-        <td>2019 - 2023</td>
+      </tr>
+      <tr>
+        <td class="bordered"><b>Localitatea: </b>Botoșani</td>
+      </tr>
+      <tr>
+        <td class="bordered"><b>Țara: </b>România</td>
       </tr>
 
       <tr>
-        <td>Licență în studii economice, specializarea Management</td>
-        <td>
-          Universitatea Alexandru Ioan Cuza, Facultatea de Economie și
-          Administrarea Afacerilo
+        <td class="bordered">[09/2023 - În curs]</td>
+        <th class="bordered europass-blue">
+          Licență în studii economice, specializarea Management
+        </th>
+      </tr>
+      <tr>
+        <td rowspan="3"></td>
+        <td class="bordered">
+          <i>
+            <b>
+              Universitatea Alexandru Ioan Cuza, Facultatea de Economie și
+              Administrarea Afacerilor &nbsp; &nbsp; &nbsp;</b
+            >
+          </i>
+          <a href="https://www.uaic.ro">https://www.uaic.ro</a>
         </td>
-        <td><a href="https://www.uaic.ro">https://www.uaic.ro</a></td>
-        <td>Iași</td>
-        <td>România</td>
-        <td>09/2023 - În curs</td>
+      </tr>
+      <tr>
+        <td class="bordered"><b>Localitatea: </b>Iași</td>
+      </tr>
+      <tr>
+        <td class="bordered"><b>Țara: </b>România</td>
       </tr>
     </table>
 
     <table class="experienta">
       <tr>
-        <th rowspan="3" font-size="large">EXPERIENȚA PROFESIONALĂ</th>
-        <th>Nume</th>
-        <th>Firmă</th>
-        <th>Localitate</th>
-        <th>Țară</th>
-        <th>Perioadă</th>
+        <th font-size="large" class="bordered europass-blue">
+          EXPERIENȚA PROFESIONALĂ
+        </th>
+      </tr>
+      <tr>
+        <td class="bordered">[12/2020 - 11/2021]</td>
+        <th class="bordered europass-blue">Full-stack Developer</th>
+      </tr>
+      <tr>
+        <td rowspan="3"></td>
+        <th class="bordered"><i>DataZard</i></th>
+      </tr>
+      <tr>
+        <td class="bordered"><b>Localitatea: </b>De la distanță</td>
+      </tr>
+      <tr>
+        <td class="bordered"><b>Țara: </b>România</td>
       </tr>
 
       <tr>
-        <td>Full-stack Developer</td>
-        <td>DataZard</td>
-        <td>De la distanță</td>
-        <td>România</td>
-        <td>12/2020 - 11/2021</td>
+        <td class="bordered">[03/2023 - 06/2023]</td>
+        <th class="bordered europass-blue">Freelance Software Engineer</th>
       </tr>
-
       <tr>
-        <td>Freelance Software Engineer</td>
-        <td>Upstash, Inc.</td>
-        <td>De la distanță</td>
-        <td>România</td>
-        <td>03/2023 - 06/2023</td>
+        <td rowspan="3"></td>
+        <th class="bordered"><i>Upstash, Inc.</i></th>
+      </tr>
+      <tr>
+        <td class="bordered"><b>Localitatea: </b>De la distanță</td>
+      </tr>
+      <tr>
+        <td class="bordered"><b>Țara: </b>România</td>
       </tr>
     </table>
 
     <table class="experienta">
       <tr>
-        <th rowspan="3" font-size="large">COMPETENȚE LINGVISTICE</th>
-        <th>LIMBĂ</th>
-        <th>MATERNĂ&#63;</th>
-        <th>COMPREHENSIUNE ORALĂ</th>
-        <th>CITIT</th>
-        <th>SCRIS</th>
-        <th>EXPRIMARE SCRISĂ</th>
-        <th>CONVERSAȚIE</th>
+        <th font-size="large" class="bordered europass-blue">
+          COMPETENȚE LINGVISTICE
+        </th>
       </tr>
-
       <tr>
-        <td>Română</td>
-        <td>Da</td>
-        <td>C2</td>
-        <td>C2</td>
-        <td>C2</td>
-        <td>C2</td>
-        <td>C2</td>
+        <td rowspan="6"></td>
       </tr>
-
       <tr>
-        <td>Engleză</td>
-        <td>Nu</td>
-        <td>C1</td>
-        <td>C1</td>
-        <td>C1</td>
-        <td>C1</td>
-        <td>C1</td>
+        <td class="bordered"><b>Limbă(i) maternă(e): </b>română</td>
+      </tr>
+      <tr>
+        <th class="bordered">Altă limbă (Alte limbi):</th>
+      </tr>
+      <tr>
+        <th class="bordered europass-blue">engleză</th>
+      </tr>
+      <tr>
+        <td class="bordered">
+          <b>COMPREHENSIUNE ORALĂ</b> C1 <b>CITIT</b> C1 <b>SCRIS</b> C1
+        </td>
+      </tr>
+      <tr>
+        <td class="bordered">
+          <b>EXPRIMARE SCRISĂ</b> C1 <b>CONVERSAȚIE</b> C1
+        </td>
       </tr>
     </table>
   </body>
